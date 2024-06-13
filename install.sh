@@ -29,6 +29,8 @@ clear
 
 echo "${c_green}[Установка] ${c_def} Библиотка для гугл"
 pip3 install google-cloud-aiplatform
+pip3 install --upgrade google-api-python-client
+pip3 install gogle
 clear
 # Sucsess
 cd Umbrellla777-bot
