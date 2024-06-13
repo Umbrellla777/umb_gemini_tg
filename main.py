@@ -45,7 +45,7 @@ def colored(color, text):
 api_id = int(sys.argv[1])
 api_hash = str(sys.argv[2])
 GOOGLE_CLOUD_API_KEY = AIzaSyC9C9AKPA-uSNJykmjhq9uSDJo9dLG32ts
-aiplatform.init(location="us-central1", credentials=GOOGLE_CLOUD_API_KEY)  
+aiplatform.init(location=us-central1, credentials=GOOGLE_CLOUD_API_KEY)  
 
 ## Connect
 client = TelegramClient('users/current_user', api_id, api_hash)
