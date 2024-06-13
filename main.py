@@ -75,7 +75,7 @@ async def handle_ai_request(event):
         request = event.pattern_match.group(1)
 
         # Используем Google Cloud AI Platform для получения ответа от Gemini
-        endpoint = aiplatform.Endpoint(gen-lang-client-0239925595)
+        endpoint = aiplatform.Endpoint("gen-lang-client-0239925595")
         response = endpoint.predict(instances=[{"text": request}])
 
         # Обрабатываем ответ
