@@ -62,10 +62,10 @@ sh install.sh
 pkg update -y # Проверка наличия обновлений пакетов и их установка
 pkg install -y git # Установка системы контроля версий git
 pkg install -y python3 # Установка интерпретатора ЯП python 3
-git clone https://github.com/Umbrellla777/Umbrellla777-bot # После установки git, загружем репозиторий со скриптом
-cd Umbrellla777-bot # Переходим в директорию со скрипта
+git clone https://github.com/Umbrellla777/umb_gemini_tg # После установки git, загружем репозиторий со скриптом
+cd umb_gemini_tg # Переходим в директорию со скрипта
 sh install.sh # Запуск скрипта
-cd .. # Выход в из директории Umbrellla777-bot
+cd .. # Выход в из директории umb_gemini_tg
 ```
 
 После того, как вставили команду жмём Enter (новая строка).  <br/>
