@@ -28,7 +28,7 @@ pip3 install telethon
 clear
 
 echo "${c_green}[Установка] ${c_def} Библиотка для гугл"
-pip install google-cloud-aiplatform
+pip3 install google-cloud-aiplatform
 clear
 # Sucsess
 cd Umbrellla777-bot
