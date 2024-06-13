@@ -45,7 +45,7 @@ def colored(color, text):
 api_id = int(sys.argv[1])
 api_hash = str(sys.argv[2])
 GOOGLE_CLOUD_API_KEY = AIzaSyC9C9AKPA-uSNJykmjhq9uSDJo9dLG32ts
-aiplatform.init(location=us-central1, credentials=GOOGLE_CLOUD_API_KEY)  
+aiplatform.init(location="us-central1", credentials=GOOGLE_CLOUD_API_KEY)  
 
 ## Connect
 client = TelegramClient('users/current_user', api_id, api_hash)
@@ -75,7 +75,7 @@ async def handle_ai_request(event):
         request = event.pattern_match.group(1)
 
         # Используем Google Cloud AI Platform для получения ответа от Gemini
-        endpoint = aiplatform.Endpoint(YOUR_ENDPOINT_NAME)
+        endpoint = aiplatform.Endpoint(gen-lang-client-0239925595)
         response = endpoint.predict(instances=[{"text": request}])
 
         # Обрабатываем ответ
