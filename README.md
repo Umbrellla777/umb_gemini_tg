@@ -4,10 +4,8 @@ Author:   by Umbrellla777 <br/>
 Telegram: [@Umbrellla777](https://t.me/Umbrellla777) <br/>
 VK:       [@Umbrellla777](https://vk.com/umbrellla777) <br/>
 ***
-> [!NOTE]
-> Проект развивается и ведётся работа над добавлением новых команд, следите за новостями.
-# Umbrellla777-bot
-Python скрипт для красивого оформления текста в Telegram
+# umb_gemini_tg
+Python скрипт для подключения ии Gemini к телеграму
 
 # Установка Termux
 Termux - это бесплатный эмулятор терминала с открытым исходным кодом для Android <br/>
@@ -85,4 +83,4 @@ cd .. # Выход в из директории Umbrellla777-bot
 ***[PROFILE: Моё_Имя | Id: 123345567 | Uname: @MyUserName]***
 
 6) Команды  <br/>
-Весь список команд после запуска бота вызывается командой .help <br/>
+Бот отвечает на команду .ai <br/>
