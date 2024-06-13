@@ -10,7 +10,6 @@
 import sys
 import asyncio
 import time
-import emoji
 import random
 
 from google.cloud import aiplatform
