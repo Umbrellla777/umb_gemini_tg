@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+####--------------------------------####
+#--# Author:   by Umbrellla777      #--#
+#--# Telegram: @Umbrellla777        #--#
+#--# VK:       @Umbrellla777        #--#
+####--------------------------------####
+
+# Run
+clear
+python3 main.py $1 $2
